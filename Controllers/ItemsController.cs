@@ -31,7 +31,7 @@ namespace Catalog.Controllers
 
         //GET /items/{id}
         [HttpGet("{id}")]
-        public ActionResult<ItemDto> GetItems(Guid id)
+        public ActionResult<ItemDto> GetItem(Guid id)
         {
             var item = _repository.GetItem(id);
             if (item == null)
@@ -39,6 +39,23 @@ namespace Catalog.Controllers
                 return NotFound();
             }
             return item.AsDto();
+        }
+
+        // POST /items
+        [HttpPost]
+        public ActionResult<ItemDto> CreateItem(CreateItemDto itemDto)
+        {
+            Item item = new Item()
+            {
+                Id = Guid.NewGuid(),
+                Name = itemDto.Name,
+                Price = itemDto.Price,
+                CreatedDate = DateTimeOffset.UtcNow
+            };
+
+            _repository.CreateItem(item);
+
+            return CreatedAtAction(nameof(GetItem), new { id = item.Id }, item.AsDto());
         }
     }
 }
