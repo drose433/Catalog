@@ -31,3 +31,16 @@ c:\C#\Catalog\obj\Debug\net5.0\refint\Catalog.dll
 c:\C#\Catalog\obj\Debug\net5.0\Catalog.pdb
 c:\C#\Catalog\obj\Debug\net5.0\Catalog.genruntimeconfig.cache
 c:\C#\Catalog\obj\Debug\net5.0\ref\Catalog.dll
+c:\C#\Catalog\bin\Debug\net5.0\AWSSDK.Core.dll
+c:\C#\Catalog\bin\Debug\net5.0\AWSSDK.SecurityToken.dll
+c:\C#\Catalog\bin\Debug\net5.0\DnsClient.dll
+c:\C#\Catalog\bin\Debug\net5.0\MongoDB.Bson.dll
+c:\C#\Catalog\bin\Debug\net5.0\MongoDB.Driver.dll
+c:\C#\Catalog\bin\Debug\net5.0\MongoDB.Driver.Core.dll
+c:\C#\Catalog\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+c:\C#\Catalog\bin\Debug\net5.0\SharpCompress.dll
+c:\C#\Catalog\bin\Debug\net5.0\Snappier.dll
+c:\C#\Catalog\bin\Debug\net5.0\ZstdSharp.dll
+c:\C#\Catalog\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
+c:\C#\Catalog\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
+c:\C#\Catalog\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll

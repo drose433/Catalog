@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r2GXmTHpWwVw0DtX00l/ECKoHGiY2c9F+/LsIdRGXBJ0URk/uFivl2kd2nKw3NFvr9GcuRFa6xgnO9YJVnT5DA==",
+  "dgSpecHash": "ist15933Y+q6Jz1VtAdxkpLwpTapl7dQQ9WlTP9uc1VNEkOypvSCgxVDWqba/m3awETzWPbYbJvELVa9HbxHlQ==",
   "success": true,
-  "projectFilePath": "C:\\C#\\Catalog\\Catalog.csproj",
+  "projectFilePath": "c:\\C#\\Catalog\\Catalog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\drose433\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\drose433\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
